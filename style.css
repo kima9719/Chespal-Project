@@ -2,10 +2,35 @@ body {
     font-family: Arial, sans-serif;
 }
 
-h1 {
-    color: #2E7D32;
+.hero-section {
+    background: #2E7D32;
+    min-height: 80vh;
+
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
 }
 
 footer {
-    margin-top: 100px;
+    margin-top: 50px;
+}
+.card {
+    transition: 0.3s;
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card h6 {
+    margin-top: auto;
 }
