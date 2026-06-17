@@ -1,11 +1,284 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Products</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Products | CHESPAL ENTERPRISES</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<h1>Products Page</h1>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+                CHESPAL ENTERPRISES
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="products.html">Products</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- Page Header -->
+
+    <section class="container py-5 text-center">
+
+        <h1 class="display-4 fw-bold">
+            Our Organic Juice Collection
+        </h1>
+
+        <p class="lead">
+            Discover our range of healthy, refreshing and naturally produced juices made from carefully selected ingredients.
+        </p>
+
+    </section>
+
+    <!-- Search Bar -->
+
+    <section class="container mb-4">
+
+        <input
+            type="text"
+            id="productSearch"
+            class="form-control"
+            placeholder="Search for a juice product...">
+
+    </section>
+
+    <!-- Products Grid -->
+
+    <section class="container pb-5">
+
+        <div class="row">
+
+            <!-- Product 1 -->
+
+            <div class="col-md-4 mb-4">
+
+                <div class="card h-100">
+
+                    <div class="card-body">
+
+                        <h5>Tamarind & Hibiscus</h5>
+
+                        <p>
+                            A tangy and refreshing blend of tamarind and hibiscus rich in antioxidants.
+                        </p>
+
+                        <h6>KSh 100 (150ml)</h6>
+                        <h6>KSh 200 (250ml)</h6>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Product 2 -->
+
+            <div class="col-md-4 mb-4">
+
+                <div class="card h-100">
+
+                    <div class="card-body">
+
+                        <h5>Sugarcane, Lime & Ginger</h5>
+
+                        <p>
+                            Fresh sugarcane juice enhanced with lime and ginger for a natural energy boost.
+                        </p>
+
+                        <h6>KSh 100 (150ml)</h6>
+                        <h6>KSh 200 (250ml)</h6>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Product 3 -->
+
+            <div class="col-md-4 mb-4">
+
+                <div class="card h-100">
+
+                    <div class="card-body">
+
+                        <h5>Kombucha</h5>
+
+                        <p>
+                            Naturally fermented tea beverage known for supporting digestive health.
+                        </p>
+
+                        <h6>KSh 150 (150ml)</h6>
+                        <h6>KSh 300 (250ml)</h6>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Product 4 -->
+
+            <div class="col-md-4 mb-4">
+
+                <div class="card h-100">
+
+                    <div class="card-body">
+
+                        <h5>Tropical Juice</h5>
+
+                        <p>
+                            A delicious blend of thorn melon, beetroot, mango and passion fruit.
+                        </p>
+
+                        <h6>KSh 100 (150ml)</h6>
+                        <h6>KSh 200 (250ml)</h6>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Product 5 -->
+
+            <div class="col-md-4 mb-4">
+
+                <div class="card h-100">
+
+                    <div class="card-body">
+
+                        <h5>Mkombero Energy Blend</h5>
+
+                        <p>
+                            A unique energy drink combining tropical fruits, mkombero and roasted nuts.
+                        </p>
+
+                        <h6>KSh 100 (150ml)</h6>
+                        <h6>KSh 200 (250ml)</h6>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Product 6 -->
+
+            <div class="col-md-4 mb-4">
+
+                <div class="card h-100">
+
+                    <div class="card-body">
+
+                        <h5>Pineapple Mint</h5>
+
+                        <p>
+                            Fresh pineapple blended with mint leaves to create a cool and refreshing taste.
+                        </p>
+
+                        <h6>KSh 100 (150ml)</h6>
+                        <h6>KSh 200 (250ml)</h6>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="bg-dark text-white py-4">
+
+        <div class="container text-center">
+
+            <h5>CHESPAL ENTERPRISES</h5>
+
+            <p>
+                Fresh Organic Juices for a Healthy Lifestyle.
+            </p>
+
+            <p>
+                Email: info@chespalenterprises.com
+            </p>
+
+            <p>
+                Phone: +254 712 345 678
+            </p>
+
+            <p>
+                &copy; 2026 All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+
+    <script src="js/script.js"></script>
 
 </body>
 </html>
