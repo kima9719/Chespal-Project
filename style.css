@@ -34,3 +34,12 @@ footer {
 .card h6 {
     margin-top: auto;
 }
+.gallery-img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
