@@ -43,3 +43,10 @@ footer {
     transform: translateY(-5px);
     transition: 0.3s;
 }
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
