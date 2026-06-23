@@ -23,3 +23,28 @@ if (form) {
     });
 
 }
+const searchInput = document.getElementById("productSearch");
+
+if (searchInput) {
+
+    searchInput.addEventListener("keyup", function () {
+
+        let filter = searchInput.value.toLowerCase();
+
+        let products = document.querySelectorAll(".card");
+
+        products.forEach(function(product) {
+
+            let text = product.innerText.toLowerCase();
+
+            if (text.includes(filter)) {
+                product.parentElement.style.display = "";
+            } else {
+                product.parentElement.style.display = "none";
+            }
+
+        });
+
+    });
+
+}
