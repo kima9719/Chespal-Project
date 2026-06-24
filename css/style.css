@@ -50,3 +50,20 @@ footer {
 .card:hover {
     transform: translateY(-5px);
 }
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body p {
+    flex-grow: 1;
+}
+
